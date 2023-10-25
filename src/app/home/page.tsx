@@ -43,6 +43,30 @@ const HomeShopping: React.FC = () => {
           </div>
         ))}
       </div>
+      <div className="text-white">Phones</div>
+      <div className=" p-3 my-[2rem] h-min gap-4  overflow-clip bg-white  justify-evenly flex">
+        {Data.map((category, categoryIndex) => (
+          <div key={categoryIndex} className="flex"> 
+            {category.Phones.map((item, index) => (
+              <div key={index}>
+                <img src={`/${item}`} alt={item} className="w-min h-min" />
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+      <div className="text-white">More</div>
+      <div className=" p-3 my-[2rem] h-min gap-4  overflow-clip bg-white  justify-evenly flex">
+        {Data.map((category, categoryIndex) => (
+          <div key={categoryIndex} className="flex"> 
+            {category.More.map((item, index) => (
+              <div key={index}>
+                <img src={`/${item}`} alt={item} className="w-min h-min" />
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
