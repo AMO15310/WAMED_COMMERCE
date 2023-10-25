@@ -11,7 +11,7 @@ const Login = ()=>{
             <input type="email" placeholder="Password" name="" id="" className="w-[80%] h-[2rem] mt-3 rounded-md focus:outline-none  border-b-orange-800"  />
             <button className="mt-5 text-white border-orange-300 bg-orange-500 px-4 py-2 w-[30%] hover:bg-gray-200 hover:border-r-2 hover:border-orange-300 hover:text-black">Login</button>
             <div className="mt-3 text-sm">
-        Don't have an account? <Link href="/signup"> <span className="text-blue-800 cursor-pointer">signup</span></Link>
+        Don&apos;t have an account? <Link href="/signup"> <span className="text-blue-800 cursor-pointer">signup</span></Link>
 
         </div>
 
